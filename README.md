@@ -81,3 +81,13 @@ sudo systemctl enable super_cool_mawirelessusb_rp02w.service
 sudo systemctl start super_cool_mawirelessusb_rp02w.service
 ```
 this should now start on boot
+# speed up boot times
+run these commands
+```
+sudo touch /etc/cloud/cloud-init.disabled
+sudo systemctl disable --now bluetooth.service
+sudo systemctl disable --now lightdm.service
+sudo systemctl disable --now rpcbind.socket
+sudo systemctl disable --now rpcbind.service
+```
+and disable ssh

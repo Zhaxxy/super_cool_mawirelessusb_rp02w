@@ -8,3 +8,4 @@ this is useful if you have a device that only takes stuff via usb mass storage, 
 # Initial setup
 follow this video [https://youtu.be/iDgQ7o_yZgU](https://youtu.be/iDgQ7o_yZgU) up until 13:15
 # DO NOT WATCH THE VIDEO PAST 13:15
+## set your username as mawirelessusbuser to make it easier as you can just copy and paste commands, otherwise replace all instances of mawirelessusbuser with your username
